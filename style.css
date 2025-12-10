@@ -1,0 +1,51 @@
+body {
+  font-family: system-ui, sans-serif;
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  line-height: 1.6;
+  background: #f2f2f2;
+}
+
+h1 { font-family: 'Merriweather', serif;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+iframe {
+  width: 100%;
+  height: 900px; /* adjust as needed */
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.banner {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem 0; /* optional spacing */
+  border-radius: 8px; /* optional for a nicer look */
+}
+
+.context-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.75rem;
+  margin: 2rem 0;
+}
+
+.context-item h2 {           /* :contentReference[oaicite:1]{index=1} */
+  margin: 0 0 0.5rem;
+  color: black; 
+}
+
+
+.context-item p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+
